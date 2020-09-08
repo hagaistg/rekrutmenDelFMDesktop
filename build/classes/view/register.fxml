@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="apane" prefHeight="533.0" prefWidth="676.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLRegisterController">
+   <children>
+      <TextField fx:id="email" layoutX="181.0" layoutY="260.0" prefHeight="27.0" prefWidth="314.0" promptText="email" />
+      <PasswordField fx:id="username" layoutX="181.0" layoutY="299.0" prefHeight="27.0" prefWidth="314.0" promptText="username" />
+      <PasswordField fx:id="password" layoutX="181.0" layoutY="342.0" prefHeight="27.0" prefWidth="314.0" promptText="password" />
+      <Button fx:id="btnRegister" layoutX="166.0" layoutY="425.0" mnemonicParsing="false" onAction="#actionRegister" prefHeight="39.0" prefWidth="76.0" style="-fx-background-color: pink;" text="Register" />
+      <Button fx:id="btnReset" layoutX="293.0" layoutY="425.0" mnemonicParsing="false" onAction="#actionReset" prefHeight="39.0" prefWidth="76.0" style="-fx-background-color: pink;" text="Reset" />
+      <Button fx:id="btnCancel" layoutX="419.0" layoutY="425.0" mnemonicParsing="false" onAction="#actionCancel" prefHeight="39.0" prefWidth="76.0" style="-fx-background-color: pink;" text="Cancel" />
+      <TextField fx:id="nama" layoutX="181.0" layoutY="220.0" prefHeight="27.0" prefWidth="314.0" promptText="nama lengkap" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="256.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/man.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="loginpengguna" layoutX="263.0" layoutY="183.0" prefHeight="21.0" prefWidth="165.0" text="REGISTER PENGGUNA" textAlignment="JUSTIFY" textFill="#e3180e">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="panes" prefHeight="462.0" prefWidth="600.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="persyaratan.FXMLpersyaratanUserController">
+   <children>
+      <TableView fx:id="tabelview" layoutX="24.0" layoutY="116.0" prefHeight="216.0" prefWidth="458.0" style="-fx-background-color: white;">
+         <columns>
+            <TableColumn fx:id="nomor" prefWidth="46.0" text="No" />
+            <TableColumn fx:id="nama" prefWidth="164.0" text="Nama Persyaratan" />
+            <TableColumn fx:id="deskripsi" prefWidth="225.3333282470703" text="Deskripsi" />
+         </columns>
+      </TableView>
+      <Button fx:id="detail" layoutX="356.0" layoutY="396.0" mnemonicParsing="false" onAction="#detailAction" style="-fx-background-color: #16c2ce;" text="Detail Syarat" textFill="#1e1c1c" />
+      <Button fx:id="kembali" layoutX="490.0" layoutY="396.0" mnemonicParsing="false" onAction="#kembaliAction" style="-fx-background-color: pink;" text="Kembali" textFill="#cf1521" />
+      <Label layoutX="24.0" layoutY="4.0" prefHeight="111.0" prefWidth="556.0" text="DEL FM HIRING..." textFill="#1b60df">
+         <font>
+            <Font name="Stencil" size="48.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

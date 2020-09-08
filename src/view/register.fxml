@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="apane" prefHeight="471.0" prefWidth="837.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLRegisterController">
+   <children>
+      <ImageView fitHeight="474.0" fitWidth="842.0" layoutX="-1.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/b_login2.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane disable="true" layoutX="114.0" layoutY="87.0" opacity="0.7" prefHeight="323.0" prefWidth="361.0" style="-fx-background-color: #FFF;" />
+      <TextField fx:id="email" layoutX="136.0" layoutY="196.0" prefHeight="27.0" prefWidth="314.0" promptText="Email" />
+      <PasswordField fx:id="username" layoutX="136.0" layoutY="234.0" prefHeight="27.0" prefWidth="314.0" promptText="Username" />
+      <PasswordField fx:id="password" layoutX="136.0" layoutY="272.0" prefHeight="27.0" prefWidth="314.0" promptText="Password" />
+      <Button fx:id="btnRegister" layoutX="136.0" layoutY="319.0" mnemonicParsing="false" onAction="#actionRegister" prefHeight="27.0" prefWidth="314.0" style="-fx-background-color: #009999;" text="Register" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="btnReset" layoutX="136.0" layoutY="363.0" mnemonicParsing="false" onAction="#actionReset" prefHeight="27.0" prefWidth="156.0" style="-fx-background-color: #FFFF33;" text="Reset" textFill="#615252">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="btnCancel" layoutX="295.0" layoutY="364.0" mnemonicParsing="false" onAction="#actionCancel" prefHeight="25.0" prefWidth="156.0" style="-fx-background-color: #FF6633;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="12.0" />
+         </font></Button>
+      <TextField fx:id="nama" layoutX="136.0" layoutY="160.0" prefHeight="27.0" prefWidth="314.0" promptText="Nama Lengkap" />
+      <Label fx:id="loginpengguna" layoutX="210.0" layoutY="103.0" prefHeight="21.0" prefWidth="165.0" text="REGISTER PENGGUNA" textAlignment="JUSTIFY">
+         <font>
+            <Font name="Berlin Sans FB Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="584.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/teamwork.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

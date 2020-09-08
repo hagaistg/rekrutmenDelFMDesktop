@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="487.0" prefWidth="685.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.KelolaBeritaUserController">
+   <children>
+      <TableView fx:id="ttable" layoutX="45.0" layoutY="95.0" prefHeight="287.0" prefWidth="603.0">
+         <columns>
+            <TableColumn fx:id="tno" prefWidth="43.999969482421875" text="No" />
+            <TableColumn fx:id="tjudul" prefWidth="106.66666412353516" text="Judul" />
+            <TableColumn fx:id="ttopik" prefWidth="145.33335876464844" text="Topik" />
+            <TableColumn fx:id="ttanggal" prefWidth="139.3333740234375" text="Tanggal" />
+            <TableColumn fx:id="tdeskripsi" prefWidth="175.33334350585938" text="Deskrpsi" />
+         </columns>
+      </TableView>
+      <Button fx:id="detail" layoutX="508.0" layoutY="413.0" mnemonicParsing="false" onAction="#detailAction" style="-fx-background-color: #16c2ce;" text="Detail" />
+      <Label layoutX="280.0" layoutY="37.0" prefHeight="35.0" prefWidth="90.0" text="BERITA">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="kembali" layoutX="585.0" layoutY="413.0" mnemonicParsing="false" onAction="#kembaliAction" style="-fx-background-color: pink;" text="Kembali" />
+   </children>
+</AnchorPane>

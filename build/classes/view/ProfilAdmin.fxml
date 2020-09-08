@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="400.0" prefWidth="688.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProfilAdminController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="159.0" layoutY="14.0" prefHeight="54.0" prefWidth="334.0" text="RADIO DEL FM">
+         <font>
+            <Font name="Arial Black" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="37.0" fitWidth="16.0" layoutX="14.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/fb.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="56.0" fitWidth="16.0" layoutX="14.0" layoutY="324.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/instagram.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="16.0" layoutX="14.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/whatsapp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="16.0" fitWidth="16.0" layoutX="14.0" layoutY="360.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/twitter.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="37.0" layoutY="306.0" text="Whatsapp : 081162199924" />
+      <Label layoutX="37.0" layoutY="323.0" text="Instagram : @delfmradio" />
+      <Label layoutX="37.0" layoutY="340.0" text="Facebook : @delfm924" />
+      <Label layoutX="37.0" layoutY="357.0" text="Twitter : @delfmradio " />
+      <Label layoutX="181.0" layoutY="262.0" text="Radio 92,4 Del FM, yang berlokasi di JL.YP Arjuna Laguboti," />
+      <Label layoutX="192.0" layoutY="277.0" text="Sumatera Utara, Indonesia aged 15-25 years old music" />
+      <Label layoutX="216.0" layoutY="290.0" text="segment Indonesia,Mancanegara, Batak" />
+      <Label layoutX="240.0" layoutY="303.0" text="chekout our official website at:" />
+      <Label layoutX="259.0" layoutY="321.0" text="www.radiodelfm.co.id" textFill="#ee0808">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fcfdfe" height="189.0" layoutX="209.0" layoutY="62.0" stroke="BLACK" strokeType="INSIDE" width="228.0" />
+      <ImageView fitHeight="182.0" fitWidth="210.0" layoutX="222.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/logo.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="kembali" layoutX="596.0" layoutY="356.0" mnemonicParsing="false" onAction="#kembaliAction" style="-fx-background-color: pink;" text="Kembali" />
+   </children>
+</AnchorPane>

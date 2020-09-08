@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DetailBeritaController">
+   <children>
+      <Text fill="#ea0606" layoutX="66.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Judul" wrappingWidth="62.68683671951294" />
+      <Text fill="#ee0a0a" layoutX="66.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Topik" wrappingWidth="62.68683671951294" />
+      <Text fill="#f00707" layoutX="66.0" layoutY="253.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tanggal" wrappingWidth="62.68683671951294" />
+      <Text fill="#fe0909" layoutX="66.0" layoutY="305.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Deskripsi" wrappingWidth="62.68683671951294" />
+      <Label fx:id="judul" layoutX="164.0" layoutY="130.0" text="Judul" />
+      <Label fx:id="topik" layoutX="164.0" layoutY="182.0" text="Topik" />
+      <Label fx:id="tanggal" layoutX="166.0" layoutY="240.0" text="Tanggal" />
+      <Label fx:id="deskripsi" layoutX="168.0" layoutY="292.0" text="Deskripsi" />
+      <Button fx:id="kembail" layoutX="370.0" layoutY="337.0" mnemonicParsing="false" onAction="#kembaliAction" style="-fx-background-color: pink;" text="Kembali" />
+      <Label layoutX="193.0" layoutY="34.0" prefHeight="35.0" prefWidth="176.0" text="DETAIL BERITA">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

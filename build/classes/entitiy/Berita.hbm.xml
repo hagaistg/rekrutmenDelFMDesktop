@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated May 16, 2019 8:48:16 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="entitiy.Berita" table="BERITA" schema="PUBLIC" catalog="PROYEK" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="ID" />
+            <generator class="identity" />
+        </id>
+        <property name="judul" type="string">
+            <column name="JUDUL" length="200" />
+        </property>
+        <property name="topik" type="string">
+            <column name="TOPIK" length="200" />
+        </property>
+        <property name="tanggal" type="string">
+            <column name="TANGGAL" length="200" />
+        </property>
+        <property name="deskripsi" type="string">
+            <column name="DESKRIPSI" length="200" />
+        </property>
+    </class>
+</hibernate-mapping>

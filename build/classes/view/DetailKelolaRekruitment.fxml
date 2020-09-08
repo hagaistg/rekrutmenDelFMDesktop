@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="panes" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: skyblue;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DetailKelolaRekruitmentController">
+   <children>
+      <Label fx:id="nama" layoutX="171.0" layoutY="64.0" text="nama" />
+      <Label fx:id="email" layoutX="172.0" layoutY="90.0" text="email" />
+      <Label fx:id="umur" layoutX="172.0" layoutY="117.0" text="umur" />
+      <Button fx:id="kembali" layoutX="522.0" layoutY="359.0" mnemonicParsing="false" onAction="#kembaliAction" style="-fx-background-color: pink;" text="Kembali" />
+      <Label layoutX="15.0" layoutY="64.0" text="NAMA LENGKAP" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="90.0" text="EMAIL" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="117.0" prefHeight="17.0" prefWidth="71.0" text="UMUR" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="167.0" prefHeight="17.0" prefWidth="71.0" text="ALAMAT" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="142.0" prefHeight="17.0" prefWidth="108.0" text="TANGGAL LAHIR" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="191.0" prefHeight="17.0" prefWidth="95.0" text="NO TELEPON" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="213.0" prefHeight="17.0" prefWidth="95.0" text="JENIS KELAMIN" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="238.0" prefHeight="17.0" prefWidth="95.0" text="PENDIDIKAN" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="264.0" prefHeight="17.0" prefWidth="155.0" text="PENGALAMAN BEKERJA" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="291.0" prefHeight="17.0" prefWidth="71.0" text="POSISI" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="315.0" prefHeight="17.0" prefWidth="71.0" text="MOTIVASI" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="16.0" layoutY="341.0" prefHeight="17.0" prefWidth="71.0" text="CV" textFill="#ea0b0b">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="tgllahir" layoutX="172.0" layoutY="142.0" text="tgllahir" />
+      <Label fx:id="alamat" layoutX="172.0" layoutY="167.0" text="alamat" />
+      <Label fx:id="notlp" layoutX="172.0" layoutY="191.0" text="notlp" />
+      <Label fx:id="jk" layoutX="171.0" layoutY="213.0" text="jeniskelamin" />
+      <Label fx:id="pendidikan" layoutX="171.0" layoutY="238.0" text="pendidikan" />
+      <Label fx:id="pengalaman" layoutX="171.0" layoutY="264.0" text="pengalaman" />
+      <Label fx:id="posisi" layoutX="172.0" layoutY="291.0" prefHeight="17.0" prefWidth="59.0" text="posisi" />
+      <Label fx:id="motivasi" layoutX="171.0" layoutY="315.0" text="motivasi" />
+      <Label fx:id="cv" layoutX="171.0" layoutY="341.0" text="cv" />
+      <Button fx:id="terima" layoutX="345.0" layoutY="359.0" mnemonicParsing="false" onAction="#terimaAction" style="-fx-background-color: pink;" text="Terima" />
+      <Label layoutX="69.0" layoutY="14.0" prefHeight="35.0" prefWidth="504.0" text="DETAIL KELOLA REKRUITMENT KARYAWAN">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imagecv" fitHeight="150.0" fitWidth="200.0" layoutX="335.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
